@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+      database: ${customer_dbname}
+      username: ${customer_username}
+      password: ${customer_password}
+      host: ${customer_host}
+      port: ${customer_port}
+      authentication-database: ${customer_auth_dbname}
+
+server:
+  port: 8090
